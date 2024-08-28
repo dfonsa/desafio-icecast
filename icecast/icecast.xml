@@ -1,0 +1,34 @@
+<icecast>
+  <limits>
+    <clients>10</clients>
+    <sources>2</sources>
+    <threads>50</threads>
+  </limits>
+
+  <authentication>
+    <admin-user>admin</admin-user>
+    <admin-password>desafio</admin-password>
+    <source-password>desafio</source-password>
+  </authentication>
+
+  <hostname>radiofonseca.com</hostname>
+  <location>Guarulhos</location>
+  <server-name>My Icecast Server</server-name>
+  <admin>icemaster@radiofonseca.com</admin>
+
+  <listen-socket>
+    <port>8000</port>
+  </listen-socket>
+
+  <mount>
+    <mount-name>/stream</mount-name>
+    <public>1</public>
+  </mount>
+
+  <mime-types>
+    <file>/etc/mime.types</file>
+  </mime-types>
+
+  <changeowner>www-data:www-data</changeowner>
+</icecast>
+
