@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Desafio Icecast com Docker
 
 Este projeto configura um servidor Icecast e um proxy reverso Nginx usando Docker. O objetivo é criar um ambiente de streaming de áudio acessível através de um navegador web
@@ -24,3 +25,7 @@ No diretório do projeto, execute o seguinte comando para construir e iniciar os
 docker-compose build
 docker-compose up -d
 
+=======
+# desafio-icecast
+Desafio DevOps: Instalação e Configuração de Icecast com Docker e Nginx
+>>>>>>> 4ebebffbe2d1611301cd3ca7638445c517554106
